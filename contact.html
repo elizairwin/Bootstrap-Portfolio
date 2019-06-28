@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Boostrap Portfolio</title><!--Made sure to put Boostrap CSS before my style sheet-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!--navbar goes before container-->
+	<div id="MainNav">
+		<div class="MainTwo">
+			<nav class="navbar navbar-expand-lg p-0">
+				<!--brand will be the prominent part of the nav-->
+				<a class="navbar-brand p-3" href="#" id="TotalBackground"><strong>Eliza Irwin</strong></a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link border-left" href="Portfolio.html">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link border-left" href="Contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div><!--all we need is one row and column since we already have a nav-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="m-4 pb-3"><strong>Contact</strong></h1>
+				<p class="p-4"><!--form info from Bootstrap site-->
+				 Name: <input class="form-control m-2" placeholder="John Doe" type="text"> Email: <input class="form-control m-2" placeholder="Example@gmail.com" type="text"> Message: 
+				<textarea class="form-control m-2" id="exampleFormControlTextarea1" rows="3">Your Message Here!</textarea> <button class="btn submitButton m-2" type="button">Submit</button></p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>Copyright© 2019</p>
+	</footer>
+</body>
+</html>

@@ -1,4 +1,6 @@
 /*below controls background of entire page*/
+/*took Dorian's note that it's sometimes best to do multiple style sheets. 
+For this, was recommended to do one CSS doc because it's not very large*/
 
 html {
 	background-color: #F4A6DE;
@@ -161,5 +163,10 @@ footer {
 		height: auto;
 	}
 	footer {
-        display: none;
+		display: none;
+	}
+	.navbar-nav {
+        flex-direction: row !important;
+
     }
+}
